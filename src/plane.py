@@ -8,7 +8,7 @@ TITLE = 'Battle Plane'
 pygame.init()
 
 # import background
-background1 = Actor('background1') 
+background1 = Actor('../assets/images/background.png') 
 background2 = Actor('background1')
 background1.x = WIDTH / 2      
 background1.y = HEIGHT / 2     
